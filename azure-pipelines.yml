@@ -25,7 +25,6 @@ stages:
       inputs:
         command: buildAndPush
         repository: captureorder
-        dockerfile: '**/Dockerfile'
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: $(tag)
 
